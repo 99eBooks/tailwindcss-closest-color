@@ -1,13 +1,8 @@
 name: Deploy
 
-# on:
-#   release:
-#     types: [published]
-
 on:
-  push:
-    branches:
-      - fix/ci-cd
+  release:
+    types: [published]
 
 jobs:
   deploy:
